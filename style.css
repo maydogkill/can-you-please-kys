@@ -5,6 +5,16 @@ body, html {
     font-family: 'Charm', cursive;
 }
 
+::-webkit-scrollbar {
+    background-color: black;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 20px;
+}
+
 .link-to{
     text-decoration: none;
     font-size: xx-large;
@@ -57,7 +67,9 @@ nav {
     display: block;
     width: 50%;
     margin-top: 50px;
+    margin-bottom: 50px;
     box-shadow: 0 0 25px rgb(0, 26, 255);
+    border-radius: 20px;
     padding: 10px;
     /* Box-shadow: x y blur colour */
 }
@@ -68,4 +80,13 @@ nav {
     width: 50%;
     border-radius: 20px;
     box-shadow: 0 0 15px black;
+}
+
+footer {
+    background-color: black;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
 }
